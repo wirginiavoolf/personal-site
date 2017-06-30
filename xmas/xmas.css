@@ -1,0 +1,109 @@
+body { background-color:#333; }
+#snow{
+    background: none;
+    font-family: Androgyne;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    height: 300%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 2500px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 2500px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 2500px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 2500px, 200px 400px, -100px 300px;}
+}   
+
+.flip {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.break {
+    background-image: url(lights.gif);
+    background-size: 160px 57px;
+    height: 57px;
+    width: 60%;
+}
+
+
+.beach {
+    display: block;
+    margin: auto;
+    background-image: url(beach.gif);
+    width: 944px;
+    height: 700px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: red; background-color: green; font-size: 24px;
+}
+
+/* visited link */
+a:visited {
+    color: red; background-color: green; font-size: 24px;
+}
+
+/* mouse over link */
+a:hover {
+    color: green; size: 24px;
+}
+
+/* selected link */
+a:active {
+    color: white; size: 24px;
+}
+
+h1{
+    font-style: italic;
+    color: red;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em 0.2em white
+}
+
+h2{
+    color: green;
+    font-size: 70px;
+    text-shadow: 0.1em 0.1em 0.2em white
+}
+
+p{
+    font-style: none;
+    color: white;
+    size: 40px;
+}
+
+.us{
+    height: 400px;
+    width: auto;
+    border-style: dotted dashed;
+    border-color: red green;
+    border-width: 4px 10px;
+ }

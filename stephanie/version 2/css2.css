@@ -1,0 +1,82 @@
+
+body,div{background-color:transparent;line-height:20pt;}
+body,font,bp,tr,xmp,div,i,p{color:black; 
+  font-style:normal; 
+  font-weight:normal; 
+  font-size:14pt; 
+  font-family:garamond; 
+  line-height:14pt;
+  letter-spacing:; 
+  text-align:justify}
+
+a.menu:link{color:black;
+  font-size:36pt;border:none;text-decoration:none;font-weight:normal;font-family:garamond;text-transform:lowercase}
+a.menu:visited{color:black;
+
+  font-size:36pt;border:none;text-decoration:none;font-weight:normal;font-family:garamond;text-transform:lowercase}
+a.menu:hover{font-style:italic;color:#e0c0e0;font-size:42pt; font-family:garamond; text-shadow:none}
+
+a.content:link{color:black; 
+
+
+  font-size:12pt; text-decoration:none; text-transform:italics}
+a.content:visited{color:gray; font-size:12pt; text-decoration:none; text-transform:italics}
+a.content:hover{color:gray; font-size:12pt; font-style:none; text-decoration:none; text-transform:uppercase}
+a.content:active{color:gray; font-size:12pt; text-decoration:none; text-transform:none}
+
+a.content2:link{color:black; 
+
+
+  font-size:12pt; text-decoration:none; text-transform:uppercase; font-weight: bold}
+a.content2:visited{color:black; font-size:12pt; text-decoration:none; text-transform:italics}
+a.content2:hover{color:gray; font-size:12pt; font-style:none; text-decoration:none; text-transform:uppercase}
+a.content2:active{color:gray; font-size:12pt; text-decoration:none; text-transform:none}
+
+body{background-color: #d6feff;
+background-image: url("speckle.png");
+background-attachment:fixed
+}
+
+.center
+{
+margin-left:auto;
+margin-right:auto;
+}
+
+h1{text-transform:uppercase; color:black; font-style:normal; font-weight:bold; font-size:24pt; font-family:garamond; line-height:20pt;letter-spacing:; text-align:justify; margin-right:200px; margin-left:200px;}
+em{text-transform:lowercase; color:black; font-size:24pt; font-family:garamond; line-height:24pt;letter-spacing:3px; text-align:center; margin-right:auto; margin-left:auto;}
+
+
+div.background
+  {
+  width:500px;
+  height:250px;
+  background:url(klematis.jpg) repeat;
+  border:2px solid black;
+  }
+div.content
+  {
+background-color:#f7e6f7;width:640px; border: 1px solid; border-radius: 25px; margin-left: auto; margin-right: auto; overflow:no; padding:25px;
+  }
+div.schmontent
+  {
+background-color:#ffffe4;width:640px; border: 1px solid; border-radius: 25px; margin-left: auto; margin-right: auto; overflow:no; padding:25px;
+  }
+div.transbox p
+  {
+  margin:30px 40px;
+  font-weight:bold;
+  color:#000000;
+  }
+
+  div.container {
+    
+    margin-left: 35%;
+}
+
+.footerholder {
+    top: 92%;
+margin-left: auto; 
+margin-right: auto; 
+overflow:no;
+

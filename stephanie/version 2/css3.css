@@ -1,0 +1,257 @@
+/* color reference
+  
+  lilac - #D8BFD8
+  dark gray - #74756a
+
+*/
+
+
+
+#wrapper {
+
+  padding-left: 75px;
+  padding-top: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+
+}
+
+
+/* Body Border */ 
+
+  #top, #bottom, #left, #right {
+  background:   #D8BFD8;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 50px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 50px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
+
+
+
+
+/* Body Fonts */
+
+@font-face {
+    font-family: Geo;
+    src: url(geo.ttf);
+}
+
+p {
+
+    font size: 42px;
+    font-family: "Geo";
+    color: #74756a;
+    letter-spacing: 1px;
+    text-transform: normal;
+    text-align: justify;
+    text-justify: inter-word;
+
+    /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+}
+
+/* Site Header */
+
+h1 {
+    display: inline;
+    font-family: "Geo";
+    font-size: 42px;
+    color: #74756a;
+    /* font-weight: lighter; */
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    text-shadow: -2px 0 1px rgba(255,0,255,0.5) , 0px 0 1px rgba(155,155,155,0.5) ;
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+
+}
+
+
+/* Navigation */
+
+ul#horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+        width: 400px;
+    /*width: 800px;*/
+
+  min-width: 600px;
+  list-style: none;
+  padding-top: 5px;
+
+    display: table;
+    table-layout: fixed; /* the magic dust that ensures equal width */
+
+
+  }
+
+ul#horizontal-list li {
+    float: left;
+    width: 20%;
+    display: inline;
+}
+
+
+ul#horizontal-list li a {
+    font-family: "Geo";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+
+
+    color: white;
+    display: block;
+    padding: 8px;
+    background-color: #D8BFD8;
+    border-radius: 15px;
+    border-color: white;
+    border-style: solid;
+}
+
+ul#horizontal-list li a:active { 
+
+    font-family: "Geo";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+
+
+    color: #D8BFD8;
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-color: #D8BFD8;
+    border-style: double;
+}
+
+ul#horizontal-list li a:hover { 
+
+    font-family: "Geo";
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+
+
+    color: #D8BFD8;
+    display: block;
+    padding: 8px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-color: #ffffff;
+    border-style: double;
+}
+
+#menu-outer {
+  height: 84px;
+  background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/* Social Media Icons */
+
+ul#social-media-list{
+  min-width: 300px;
+  list-style: none;
+  padding-top: 5px;
+  }
+
+ul#social-media-list li {
+  display: inline;
+}
+
+
+/* Poems */
+
+p#poems {
+  text-align: center;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 20em;
+}
+
+
+/* Contact */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+    
+}
+
+input[type=submit] {
+    background-color: #D8BFD8;
+    color: #74756a;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #d8d8bf;
+}
+
+input[type=submit]:hover {
+    background-color: #74756a;
+    color: #d8d8bf;
+}
+
+.contact {
+    border-radius: 5px;
+    background-color: #D8BFD8;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Geo";
+    padding: 10px;
+    padding-top: 20px;
+}
+
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+  #top, #bottom, #left, #right { display: none; }
+}

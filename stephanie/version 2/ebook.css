@@ -1,0 +1,146 @@
+/* color reference
+  
+  lilac - #D8BFD8
+  dark gray - #74756a
+
+*/
+
+
+
+#wrapper {
+
+  padding-left: 75px;
+  padding-top: 75px;
+  padding-right: 75px;
+  padding-bottom: 75px;
+
+}
+
+
+
+
+
+/* Body Fonts */
+
+@font-face {
+    font-family: Geo;
+    src: url(geo.ttf);
+}
+
+p {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+
+}
+/* Site Header */
+
+h1 {
+    display: inline;
+    font-family: "Geo";
+    font-size: 42px;
+    color: #74756a;
+    /* font-weight: lighter; */
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    text-shadow: -2px 0 1px rgba(255,0,255,0.5) , 0px 0 1px rgba(155,155,155,0.5) ;
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+
+}
+
+
+/* Navigation */
+
+
+
+
+
+
+
+/* Arrows */
+
+#left {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -moz-transform: translateX(-5%) translateY(-50%);
+    -webkit-transform: translateX(-5%) translateY(-50%);
+    transform: translateX(-5%) translateY(-50%);
+}
+
+#right {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    -moz-transform: translateX(-5%) translateY(-50%);
+    -webkit-transform: translateX(-5%) translateY(-50%);
+    transform: translateX(-5%) translateY(-50%);
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    background-color: #D8BFD8;
+    color: #74756a;
+}
+
+
+}
+
+.round {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+/* Social Media Icons */
+
+.header {
+  text-align: center;
+}
+
+#menu-outer {
+  height: 25px;
+  background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul#social-media-list{
+  min-width: 300px;
+  list-style: none;
+  padding-top: 5px;
+  }
+
+ul#social-media-list li {
+  display: inline;
+}
+
+
+
+
+
+
