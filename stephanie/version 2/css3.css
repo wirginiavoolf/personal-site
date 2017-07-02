@@ -49,13 +49,15 @@
 
 p {
 
-    font size: 42px;
+    font-size: 18px;
     font-family: "Geo";
     color: #74756a;
     letter-spacing: 1px;
     text-transform: normal;
     text-align: justify;
     text-justify: inter-word;
+    margin-left: 10%;
+    margin-righT: 10%;
 
     /*taller*/
     display: inline-block;
@@ -83,6 +85,86 @@ h1 {
 
 }
 
+h2 {
+    display: inline;
+    font-family: "Geo";
+    font-size: 20px;
+    font-style: none;
+    color: #74756a;
+    /* font-weight: lighter; */
+    letter-spacing: 10px;
+    text-transform: lowercase;
+/*    text-decoration: underline #D8BFD8;*/
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+
+}
+
+.underline {
+      display: inline;
+    font-family: "Geo";
+    font-size: 34px;
+    font-style: none;
+    color: #74756a;
+
+    letter-spacing: 10px;
+    text-transform: lowercase;
+
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+      /*line*/
+  border-bottom: 5px solid #D8BFD8;
+  border-bottom-length: 100px;
+  display: inline-block;
+  line-height: 0.85;
+
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+}
+
+/*h2 {
+    display: inline;
+    font-family: "Geo";
+    font-size: 24px;
+    font-weight: medium;
+    color: #74756a;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+        text-shadow: -2px 0 1px rgba(255,0,255,0.5) , 0px 0 1px rgba(155,155,155,0.5) ;
+
+
+    display: inline-block;
+    transform: scaleY(1.1);
+    padding-left: 10%;
+
+
+}*/
+
+/* Regular Links */
+
+a {
+
+    font-family: "Geo";
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #74756a;
+}
+
+a:hover {
+    text-transform: lowercase;
+    color: #D8BFD8;
+}
 
 /* Navigation */
 
@@ -91,10 +173,10 @@ ul#horizontal-list {
     margin: 0;
     padding: 0;
     overflow: hidden;
-        width: 400px;
+        width: 420px;
     /*width: 800px;*/
 
-  min-width: 600px;
+  min-width: 620px;
   list-style: none;
   padding-top: 5px;
 
@@ -247,11 +329,44 @@ input[type=submit]:hover {
 
 
 /* Fairly small screens including iphones */
-only screen and (max-width: 500px),
+@media only screen and (device-width: 768px) { 
+  /* For general iPad layouts */ 
+} 
 
-/* iPads */
-only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) { 
+  /* For portrait layouts only */ 
+} 
 
-{
-  #top, #bottom, #left, #right { display: none; }
-}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) { 
+  /* For landscape layouts only */ 
+    #container { 
+        width:800px; 
+    } 
+} 
+
+@media all { 
+    /* styles for narrow desktop browsers and iPad landscape */ 
+    #container { 
+        width:800px; 
+    } 
+} 
+
+@media all and (max-width: 1024px) { 
+    /* styles for narrow desktop browsers and iPad landscape */ 
+} 
+
+@media all and (max-width: 768px) { 
+    /* styles for narrower desktop browsers and iPad portrait */ 
+} 
+
+@media all and (max-width: 480px) { 
+    /* styles for iPhone/Android landscape (and really narrow browser windows) */ 
+} 
+
+@media all and (max-width: 320px) { 
+    /* styles for iPhone/Android portrait */ 
+} 
+
+@media all and (max-width: 240px) { 
+    /* styles for smaller devices */ 
+} 
