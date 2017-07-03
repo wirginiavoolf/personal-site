@@ -126,17 +126,16 @@ animation: AnimationName 30s ease infinite;}
     src: url(geo.ttf);
 }
 
-body {
-    font-size: 18px;
-}
+
 
 p {
   font-family: "Geo";
-  
+  font-size: 18px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
   width: 30em;
+  padding: 1em;
 
 }
 
@@ -255,6 +254,8 @@ h4{
     -moz-transform: translateX(-5%) translateY(-50%);
     -webkit-transform: translateX(-5%) translateY(-50%);
     transform: translateX(-5%) translateY(-50%);
+    padding-right: 10em;
+
 }
 
 #right {
@@ -360,8 +361,8 @@ ul#social-media-list a:hover {
   padding: 1em;
     }
 
-@-ms-viewport{
-  width: device-width;
 }
 
+@-ms-viewport{
+  width: device-width;
 }

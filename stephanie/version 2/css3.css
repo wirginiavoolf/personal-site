@@ -131,6 +131,34 @@ h2 {
     -2px -2px white;
 }
 
+.underline_sub {
+      display: inline;
+    font-family: "Geo";
+    font-size: 24px;
+    font-style: none;
+    color: #74756a;
+
+    letter-spacing: 10px;
+    text-transform: lowercase;
+
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+      /*line*/
+  border-bottom: 5px solid #D8BFD8;
+  border-bottom-length: 100px;
+  display: inline-block;
+  line-height: 0.85;
+
+  text-shadow:
+    2px 2px white,
+    2px -2px white,
+    -2px 2px white,
+    -2px -2px white;
+}
+
 /*h2 {
     display: inline;
     font-family: "Geo";
@@ -155,7 +183,7 @@ h2 {
 a {
 
     font-family: "Geo";
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     color: #74756a;

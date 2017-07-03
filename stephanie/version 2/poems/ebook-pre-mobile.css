@@ -1,0 +1,806 @@
+/* color reference
+  
+  lilac - #D8BFD8
+  dark gray - #74756a
+
+*/
+
+
+
+
+/* cover */
+
+#moon {
+  
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 30px 15px 3px 0 #D8BFD8;
+}
+
+
+
+#title {
+      font-family: "Geo";
+    font-size: 92px;
+    color: #74756a;
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    text-shadow: -2px 0 1px rgba(255,0,255,0.5) , 0px 0 1px rgba(155,155,155,0.5) ;
+    display: inline-block;
+
+}
+
+#by {
+    font-family: "Geo";
+    font-size: 24px;
+    color: #74756a;
+    /* font-weight: lighter; */
+    letter-spacing: 20px;
+    text-transform: none;
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);  
+}
+
+.button {
+  font-family: "Geo";
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: #D8BFD8;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button a {
+  font-family: "Geo";
+  border-radius: 4px;
+  background-color: transparent;
+  border: none;
+  color: #D8BFD8;
+  text-align: center;
+  font-size: 28px;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.splash {background: linear-gradient(266deg, #4e0846, #9f8c98, #d8d8bf, #ffffff);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+/* Body Fonts */
+
+@font-face {
+    font-family: Geo;
+    src: url(geo.ttf);
+}
+
+p {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+
+}
+
+
+/* Site Header */
+
+
+
+/* TOC, Coming Soon & Acknowledgements */
+
+p#contents {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40%;
+
+  width: 100em;
+
+}
+
+
+
+a#ack {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: lighter;
+    font-style: italic;
+    color: #74756a;
+    padding: 0;
+
+}
+
+a#ack:hover {
+   color: #D8BFD8;
+}
+
+}
+
+#low {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30em;
+}
+
+a#soon {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: bold;
+    color: #74756a;
+    padding: 0;
+}
+
+ a#soon:hover {
+    color: #D8BFD8;
+
+}
+
+
+
+
+
+/* headers */
+
+h1 {
+    display: inline;
+    font-family: "Geo";
+    font-size: 42px;
+    color: #74756a;
+    /* font-weight: lighter; */
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+    text-shadow: -2px 0 1px rgba(255,0,255,0.5) , 0px 0 1px rgba(155,155,155,0.5) ;
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+
+}
+
+h2 {
+    display: inline;
+    font-family: "Geo";
+    font-size: 18px;
+    color: #74756a;
+    font-weight: lighter; 
+    letter-spacing: 3px;
+
+}
+
+
+h3 {
+    display: inline;
+    font-family: "Geo";
+    font-size: 34px;
+    color: #74756a;
+    font-weight: lighter; 
+    letter-spacing: 3px;
+
+
+}
+
+
+h4{
+  text-align: center;
+  font-family: "Geo";
+  font-size: 18px;
+  color: #74756a;
+}
+
+/* Arrows */
+
+#left {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -moz-transform: translateX(-5%) translateY(-50%);
+    -webkit-transform: translateX(-5%) translateY(-50%);
+    transform: translateX(-5%) translateY(-50%);
+}
+
+#right {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    -moz-transform: translateX(-5%) translateY(-50%);
+    -webkit-transform: translateX(-5%) translateY(-50%);
+    transform: translateX(-5%) translateY(-50%);
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    color: #D8BFD8;
+    border-radius: 10%;
+}
+
+
+}
+
+.round {
+    border-radius: 50%;
+}
+
+
+/* Social Media Icons */
+
+.header {
+  text-align: center;
+}
+
+#menu-outer {
+  height: 25px;
+  background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul#social-media-list{
+  min-width: 300px;
+  list-style: none;
+  padding-top: 5px;
+  }
+
+ul#social-media-list li {
+  display: inline;
+}
+
+ul#social-media-list a:hover {
+  border-bottom: 5px solid #D8BFD8;
+  border-right: 5px solid #D8BFD8;
+}
+
+
+
+
+/*Formal Anomolies<*/
+
+.jty {
+
+      text-align: justify;
+      text-indent: 0;
+  font-family: "Geo";
+  font-size: 18px;
+
+}
+
+
+.ery {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 35%;
+
+}
+
+
+/*mobile*/
+
+@media all { 
+    /* styles for narrow desktop browsers and iPad landscape */ 
+    #container { 
+        width:800px;
+        font-size: x-large;
+    }  
+} 
+
+@media all and (max-width: 1024px) { 
+    /* styles for smaller devices */ 
+    body p {
+        font-size: 24px;
+    }
+
+    a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    color: #D8BFD8;
+    border-radius: 10%;
+}
+
+a#ack {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: lighter;
+    font-style: italic;
+    color: #74756a;
+    padding: 0;
+
+}
+
+a#ack:hover {
+   color: #D8BFD8;
+}
+
+}
+
+#low {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30em;
+}
+
+a#soon {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: bold;
+    color: #74756a;
+    padding: 0;
+}
+
+ a#soon:hover {
+    color: #D8BFD8;
+
+}
+
+p#contents {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40%;
+
+  width: 100em;
+
+}
+} 
+
+@media all and (max-device-width: 768px) { 
+    /* styles for smaller devices */ 
+    body p {
+        font-size: 24px;
+    }
+
+    a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    color: #D8BFD8;
+    border-radius: 10%;
+}
+
+a#ack {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: lighter;
+    font-style: italic;
+    color: #74756a;
+    padding: 0;
+
+}
+
+a#ack:hover {
+   color: #D8BFD8;
+}
+
+}
+
+#low {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30em;
+}
+
+a#soon {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: bold;
+    color: #74756a;
+    padding: 0;
+}
+
+ a#soon:hover {
+    color: #D8BFD8;
+
+}
+
+p#contents {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40%;
+
+  width: 100em;
+
+}
+} 
+
+@media all and (max-device-width: 480px) { 
+    /* styles for smaller devices */ 
+    body p {
+        font-size: 24px;
+    }
+
+    a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    color: #D8BFD8;
+    border-radius: 10%;
+}
+
+a#ack {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: lighter;
+    font-style: italic;
+    color: #74756a;
+    padding: 0;
+
+}
+
+a#ack:hover {
+   color: #D8BFD8;
+}
+
+}
+
+#low {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30em;
+}
+
+a#soon {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: bold;
+    color: #74756a;
+    padding: 0;
+}
+
+ a#soon:hover {
+    color: #D8BFD8;
+
+}
+
+p#contents {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40%;
+
+  width: 100em;
+
+}
+} 
+
+@media all and (max-device-width: 320px) { 
+    /* styles for smaller devices */ 
+    body p {
+        font-size: 24px;
+    }
+
+    a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    color: #D8BFD8;
+    border-radius: 10%;
+}
+
+a#ack {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: lighter;
+    font-style: italic;
+    color: #74756a;
+    padding: 0;
+
+}
+
+a#ack:hover {
+   color: #D8BFD8;
+}
+
+}
+
+#low {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30em;
+}
+
+a#soon {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: bold;
+    color: #74756a;
+    padding: 0;
+}
+
+ a#soon:hover {
+    color: #D8BFD8;
+
+}
+
+p#contents {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40%;
+
+  width: 100em;
+
+}
+} 
+
+@media all and (max-device-width: 240px) { 
+    /* styles for smaller devices */ 
+    body p {
+        font-size: 24px;
+    }
+
+    a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    color: #D8BFD8;
+    border-radius: 10%;
+}
+
+a#ack {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: lighter;
+    font-style: italic;
+    color: #74756a;
+    padding: 0;
+
+}
+
+a#ack:hover {
+   color: #D8BFD8;
+}
+
+}
+
+#low {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30em;
+}
+
+a#soon {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: bold;
+    color: #74756a;
+    padding: 0;
+}
+
+ a#soon:hover {
+    color: #D8BFD8;
+
+}
+
+p#contents {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40%;
+
+  width: 100em;
+
+}
+} 
+
+
+@media all and (max-device-width: 360px) { 
+    /* styles for smaller devices */ 
+    body p {
+        font-size: 24px;
+    }
+
+    a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Geo";
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #74756a;
+}
+
+a:hover {
+    color: #D8BFD8;
+    border-radius: 10%;
+}
+
+a#ack {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: lighter;
+    font-style: italic;
+    color: #74756a;
+    padding: 0;
+
+}
+
+a#ack:hover {
+   color: #D8BFD8;
+}
+
+}
+
+#low {
+
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 30em;
+}
+
+a#soon {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Geo";
+    font-weight: bold;
+    color: #74756a;
+    padding: 0;
+}
+
+ a#soon:hover {
+    color: #D8BFD8;
+
+}
+
+p#contents {
+  font-family: "Geo";
+  font-size: 18px;
+  text-align: left;
+  margin-left: 40%;
+
+  width: 100em;
+
+}
+} 
