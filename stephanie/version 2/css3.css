@@ -103,6 +103,37 @@ h2 {
 
 }
 
+h3 {
+      display: inline;
+    font-family: "Geo";
+    font-size: 32px;
+    font-style: none;
+    color: #74756a;
+    letter-spacing: 10px;
+
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+}
+
+em {
+    display: inline;
+    font-family: "Geo";
+    font-size: 20px;
+    color: #74756a;
+    /* font-weight: lighter; */
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+        /*taller*/
+    display: inline-block;
+    transform: scaleY(1.1);
+
+
+}
+
 .underline {
       display: inline;
     font-family: "Geo";
@@ -305,7 +336,7 @@ ul#social-media-list li {
 }
 
 
-/* Poems */
+/* Special Formats */
 
 p#poems {
   text-align: center;
@@ -314,6 +345,28 @@ p#poems {
   width: 20em;
 }
 
+
+p#facts {
+  text-align: left;
+  margin-left: 30%;
+}
+
+img#facts{
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+img#bio{
+  width: 40%    !important;
+  height: auto   !important;
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+video {
+  width: 20%    !important;
+  height: auto   !important;
+}
 
 /* Contact */
 
@@ -354,6 +407,8 @@ input[type=submit]:hover {
     padding: 10px;
     padding-top: 20px;
 }
+
+
 
 
 /* Fairly small screens including iphones */
